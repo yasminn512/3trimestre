@@ -36,4 +36,13 @@ legend:{
         size:16
     }
 }
+    }
+const grafico = document.createElement('div')
+grafico.className = 'grafico'
+document.getElementById('graficos-container').appendChild('grafico')
+plotly.newPlot(grafico,data,layout)
 
+{
+
+    redesFavoritasMundo()
+}
