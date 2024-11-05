@@ -16,5 +16,7 @@ async function redesSociaisFavoritasMinhaEscola() {
         const contagemResSociais = redesSociai.reuce((acc,redesSociai)=>{
             acc[redesSociais]= (acc[redesSociais])|| 0)+1
             return acc
-        }
+        },{})
+        constvalores= Object.values(contagemReeesSociais)
+        const labels=Object.keys
     
