@@ -11,12 +11,10 @@ async function redesSociaisFavoritasMinhaEscola() {
         const dados = await res.json()
         localStorage.setItem('respostaRedesSociais', JSON.stringify(dados))
         processarDados(dadosLocais)
-}       const respostaRedesSociais=dados.slice(1).map(rede=>redes[1])
+}     
+        const respostaRedesSociais=dados.slice(1).map(rede=>redes[1])
         const contagemResSociais = redesSociai.reuce((acc,redesSociai)=>{
             acc[redesSociais]= (acc[redesSociais])|| 0)+1
             return acc
         }
-
-        )
-
-        )
+    
